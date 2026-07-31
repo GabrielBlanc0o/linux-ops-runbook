@@ -21,16 +21,23 @@ Para el dia de hoy 31 de julio estare aprendiendo a usar git con el libro de git
 ### Del capítulo 2 (Git Basics):
 
 *2.1 Getting a Git Repository
+
 *2.2 Recording Changes to the Repository
+
 *2.3 Viewing the Commit History
+
 *2.4 Undoing Things
+
 *2.5 Working with Remotes
 
 ### Del capítulo 3 (Git Branching):
 
 *3.1 Branches in a Nutshell
+
 *3.2 Basic Branching and Merging
+
 *3.3 Branch Management
+
 *3.5 Remote Branches
 
 
