@@ -39,3 +39,8 @@ Siempre que queramos conectarnos con nuestro usuario
 git config --global user.name "GabrielBlanc0o"
 git config --global user.email "miemail@123.com"
 
+Cuando creamos un repo , por defecto git nos crea una rama master por defecto
+para cambiar el  nombre de la rama predeterminadad usaremos el comando
+
+git config --global init.defaultBranch main <---- aqui va el nombre de la rama que iremos a usar 
+en este caso ps main
