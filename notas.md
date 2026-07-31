@@ -53,4 +53,23 @@ git config --global init.defaultBranch main <---- aqui va el nombre de la rama q
 en este caso ps main
 
 
+### Capitulos 2
+
+Entramos siempre con cd como siempre a la carpeta donde queramos tener nuestro proyecto
+
+Inicializamos el proyecto con git init
+
+luego hacemos track a los archivos que por ejemplo queramos agregar 
+
+si la extension de los archivos es por ejemplo, en el lenguaje de programacion C
+
+git add *.c <-- Aqui va la extension de los archivos que queramos agregar 
+
+agregamos el archivo de Licencia comun con --> git add LICENSE
+
+
+
+
+
+
 
