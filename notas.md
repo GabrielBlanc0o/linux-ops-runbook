@@ -68,6 +68,21 @@ git add *.c <-- Aqui va la extension de los archivos que queramos agregar
 agregamos el archivo de Licencia comun con --> git add LICENSE
 
 
+Cuando necesitemos clonar un repositorio , unicamente debemos usar el argumento clone 
+
+y si queremos clonar el repo y agregar un nombre personalizado a la carpeta que contenga todo el contenido del repo
+
+solo debemos agregar el prefijo al lado de la URL del repositorio
+
+
+
+<---Ejemplo con repo normal--->
+
+git clone https://github.com/libgt2/libgt2
+
+<---Ejemplo con un nombre directorio personalizado --->
+
+git clone https://github.com/libgt2/libgt2 mylibgit
 
 
 
