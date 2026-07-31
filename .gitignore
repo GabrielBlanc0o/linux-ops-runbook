@@ -1,0 +1,23 @@
+# ignorar todos los archivos ext .a
+*.a
+
+# agregar una excepcion a un archivo de extension bloqueada arriba
+!lib.a
+
+
+# ignorar unicamente el archivo TODO  de este directorio, no un sub directorio "src/TODO"
+
+/TODO
+
+
+#Ignorar todos los archivos en cualquier directorio llamado build
+build/
+
+#Ignorar archivos en un directorio especifico ejm "doc/notas.txt"
+
+doc/*.txt
+
+# ignorar todo los archivos .pdf en el directorio doc/ y tambien en sus sub directorios
+
+doc/**/*.pdf
+
