@@ -85,6 +85,18 @@ git clone https://github.com/libgt2/libgt2
 git clone https://github.com/libgt2/libgt2 mylibgit
 
 
+## Ver historial de comandos
+
+Listo para ver el historial de commits usaremos el comando
+
+git log 
+
+Este comando nos mostrara todos los commits
 
 
 
+--- La bandera -p , muestra la diferencia introducida en cada confirmacion
+
+Al ejecutar -log con -p , mostrara cada commit con sus cambios realizados , su identificador unico registrado 
+por cada commit pusheado , y mas info importante.
+ 
