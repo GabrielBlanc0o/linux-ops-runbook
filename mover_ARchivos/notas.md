@@ -100,3 +100,22 @@ Este comando nos mostrara todos los commits
 Al ejecutar -log con -p , mostrara cada commit con sus cambios realizados , su identificador unico registrado 
 por cada commit pusheado , y mas info importante.
  
+
+*** Si queremos ver los commits con algun formato mas legible tenemos la opcion de usar la bandera --pretty
+que por su mismo nombre dice hermosa, mas agradable de leer y comprender***
+
+
+Veamos dos ejemplos >>>:
+
+--pretty=oneline
+--pretty=format: "%h - %an, %ar : %s"
+
+## ***IMPORTANTE!!!
+Si necesitamos ver como interactuan o como es el flujo de nuestras ramas de manera mas visual 
+con estilo ASCII usaremos el formato ---graph
+
+Como se veria el comando seria 
+
+git log --pretty=format:"%h %s" --graph
+
+
